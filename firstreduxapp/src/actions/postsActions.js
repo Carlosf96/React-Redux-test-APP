@@ -13,7 +13,7 @@ export const fetchPosts = () => dispatch => {
   //.then(data => console.log(data));//testing if fetch working correctly
 };
 
-export const createPosts = postData => dispatch => {
+export const createPost = postData => dispatch => {
   console.log("creating Post");
   fetch("https://jsonplaceholder.typicode.com/posts", {
     method: "POST",
